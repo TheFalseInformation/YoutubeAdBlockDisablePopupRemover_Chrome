@@ -6,7 +6,7 @@
   <b >"Turn off your AdBlocker" Popup Disabler Extension for YouTube</b>
 </p>
 
-<br>
+<br></br>
 ## Installation
 
 ### For Chrome:
