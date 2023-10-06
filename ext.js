@@ -1,14 +1,9 @@
 chrome.webNavigation.onCommitted.addListener(function(details) {
-  // Die ID des Elements wird aus der Benutzereingabe abgerufen
-  var id = document.getElementById("ytd-popup-container");
+  // Finding Element for "Disable Your AdBlocker" Popup
+  const element = document.querySelector(".style-scope ytd-enforcement-message-view-model");
 
-  // Wenn das Element gefunden wurde, wird es blockiert oder unsichtbar gemacht
-  if (id) {
-    // Das Element wird blockiert
-    // id.setAttribute("style", "display: none");
-
-    // Das Element wird unsichtbar gemacht
-    id.style.display = "none";
-	id.remove();
+  // Delete Element
+  if (element) {
+    element.remove();
   }
 });
