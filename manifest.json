@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "YouTube Popup Remover",
-    "version": "0.2",
+    "version": "0.2.1",
     "description": "Turns off the 'Turn off your ADBlocker' popup in YouTube.",
     "icons": {
         "128": "icon.png"
