@@ -14,7 +14,7 @@
 -   Clone the repository.
 -   Open Chrome and navigate to chrome://extensions/
 -   Turn on developer mode.
--   Click "Load Unpacked" and select the "manifest" folder from the cloned repository.
+-   Click "Load Unpacked" and select the folder from the cloned repository.
 -   The extension is now installed and will automatically block ads on YouTube videos.
 
 <br></br>
