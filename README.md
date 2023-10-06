@@ -20,3 +20,4 @@
 <br></br>
 ## Changelogs:
 ### 0.2 Beta: Updating Functionality, Bug Fixes
+### 0.2.1 Beta: Fixing some Bugs
