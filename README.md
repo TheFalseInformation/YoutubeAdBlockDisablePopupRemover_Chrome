@@ -21,3 +21,4 @@
 ## Changelogs:
 ### 0.2 Beta: Updating Functionality, Bug Fixes
 ### 0.2.1 Beta: Fixing some Bugs
+### 0.2.2 Beta: general function bug fixes
