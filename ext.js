@@ -1,11 +1,12 @@
 chrome.webNavigation.onCommitted.addListener(function(details) {
-  // Deleting the Element with DOM
+  // Finding Element with DOM-Sector
   document.getElementById('masthead-ad').remove();
-  //const element1 = document.querySelector("div.style-scope ytd-video-masthead-ad-v3-renderer");
+  document.getElementById('style-scope ytd-popup-container').remove();
+  document.getElementById('div.style-scope ytd-popup-container').remove();
+  const element1 = document.querySelector("style-scope ytd-popup-container");
   const element2 = document.querySelector("div.style-scope ytd-popup-container");
 
   // The Element gets deleted
-  element.parentElement.removeChild(element);
-  //element1.parentElement.removeChild(element1);
+  element1.parentElement.removeChild(element1);
   element2.parentElement.removeChild(element2);
 });
