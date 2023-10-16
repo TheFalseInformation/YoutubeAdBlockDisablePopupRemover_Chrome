@@ -1,7 +1,7 @@
 <p align="center">
   <img src="icon.png">
 </p>
-<h1 align="center"> Youtube AdBlocker Popup Disabler Extension </h1>
+<h1 align="center">Youtube AdBlocker Popup Disabler Extension</h1>
 <p align="center">
   <b >"Turn off your AdBlocker" Popup Disabler Extension for YouTube</b>
 </p>
