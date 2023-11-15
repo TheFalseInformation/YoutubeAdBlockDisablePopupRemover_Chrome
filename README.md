@@ -1,3 +1,5 @@
+# Project Canceled. Try uBlock Origin!
+<br>
 <p align="center">
   <img src="icon.png">
 </p>
