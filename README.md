@@ -24,4 +24,4 @@
 ### 0.2 Beta: Updating Functionality, Bug Fixes
 ### 0.2.1 Beta: Fixing some Bugs
 ### 0.2.2 Beta: general function bug fixes
-### 0.4.1 Community Test: Community Test with implementation of: https://github.com/TheRealJoelmatic/RemoveAdblockThing/pull/197
+### 0.4.1 Community Test: Community Test with implementation of: https://github.com/TheRealJoelmatic/RemoveAdblockThing/
