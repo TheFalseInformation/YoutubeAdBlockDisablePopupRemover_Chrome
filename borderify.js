@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2.8
 // @description  Removes Adblock Thing
-// @author       JoelMatic
+// @author       JoelMatic & U_ShowcaseDev(TheFalseInformation)
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @updateURL    https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
@@ -212,7 +212,7 @@
             }
         `;
 
-        document.head.appendChild(style);
+        //document.head.appendChild(style);
 
         sponsor?.forEach((element) => {
              if (element.getAttribute("id") === "rendering-content") {
