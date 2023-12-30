@@ -1,29 +1,17 @@
-chrome.webNavigation.onCommitted.addListener(function(details) {
-  // Finding Element with DOM-Sector
-  document.getElementById('masthead-ad').remove();
-  document.getElementById('style-scope ytd-popup-container').remove();
-  document.getElementById('div.style-scope ytd-popup-container').remove();
-  const element1 = document.querySelector("style-scope ytd-popup-container");
-  const element2 = document.querySelector("div.style-scope ytd-popup-container");
+// ==UserScript==
+// @name         Remove Adblock Thing
+// @namespace    http://tampermonkey.net/
+// @version      2.8
+// @description  Removes Adblock Thing
+// @author       JoelMatic
+// @match        https://www.youtube.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @updateURL    https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
+// @downloadURL  https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
+// @grant        none
+// ==/UserScript==
 
-  // The Element gets deleted
-  element1.parentElement.removeChild(element1);
-  element2.parentElement.removeChild(element2);
-});
-firefox.webNavigation.onCommitted.addListener(function(details) {
-  // Finding Element with DOM-Sector
-  document.getElementById('masthead-ad').remove();
-  document.getElementById('style-scope ytd-popup-container').remove();
-  document.getElementById('div.style-scope ytd-popup-container').remove();
-  const element1 = document.querySelector("style-scope ytd-popup-container");
-  const element2 = document.querySelector("div.style-scope ytd-popup-container");
-
-  // The Element gets deleted
-  element1.parentElement.removeChild(element1);
-  element2.parentElement.removeChild(element2);
-  
-  chrome.runtime.onMessage.addListener(
-  function adblockdisabler()
+(function()
  {
     //
     //      Config
@@ -295,4 +283,4 @@ firefox.webNavigation.onCommitted.addListener(function(details) {
         });
         hasIgnoredUpdate = true;
     }
-	window.onload = adblockdisabler;
+})();
