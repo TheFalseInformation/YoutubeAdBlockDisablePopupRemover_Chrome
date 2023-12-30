@@ -1,20 +1,36 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "YouTube Popup Remover",
-    "version": "0.4.1.1",
+    "version": "0.4.1.2",
     "description": "Turns off the 'Turn off your ADBlocker' popup in YouTube.",
     "icons": {
         "128": "icon.png"
     },
     "content_scripts": [
         {
+			"js": [
+                "borderify.js"
+            ],
             "matches": [
                 "*://*.youtube.com/*",
                 "https://www.youtube.com/*"
             ],
-            "js": [
-                "borderify.js"
-            ]
+			"run_at": "document_start",
+            "all_frames": true
         }
+    ],
+	"permissions": [
+        "notifications",
+        "unlimitedStorage",
+        "tabs",
+        "idle",
+        "webNavigation",
+        "webRequest", "webRequestBlocking",
+        "storage",
+        "contextMenus",
+        "clipboardWrite",
+        "cookies",
+        "declarativeContent",
+        "<all_urls>"
     ]
 }
