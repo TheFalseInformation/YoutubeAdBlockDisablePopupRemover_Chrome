@@ -296,4 +296,3 @@ firefox.webNavigation.onCommitted.addListener(function(details) {
         hasIgnoredUpdate = true;
     }
 	window.onload = adblockdisabler;
-});
