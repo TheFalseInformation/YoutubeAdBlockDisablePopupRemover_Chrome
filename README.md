@@ -1,7 +1,7 @@
 # Project UPDATED: 0.4.1 Community Test.
 <br>
 <p align="center">
-  <img src="icon.png" alt="drawing" style="width:200px;"/>img src="icon.png">
+  <img src="icon.png" alt="drawing" style="width:200px;"/>
 </p>
 <h1 align="center">Youtube AdBlocker Popup Disabler Extension</h1>
 <p align="center">
